@@ -1,0 +1,186 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;         
+    background: #FFF7D4;                
+}
+/*Header*/   
+header {
+    left: 0;
+    top: 0;
+    
+    background-color: #FFD95A;
+    /*background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(29,27,31,1));*/
+    padding: 3px 4.5%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-part {
+    list-style: none;
+}
+
+.right-part li {
+    display: inline-block;
+}
+
+.logo {
+    width: 145px;
+}
+
+.left-part {
+    padding: 0;
+}
+.nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px 0 0;
+}
+
+nav ul li a {
+    color: #191609;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px var(#FF725E), 2px 2px 50px var(#558EFE);
+    font-size: 16px;
+    font-weight: 500;
+    font-style: 'Open Sans';
+    position: relative;
+}
+
+.underline::after {
+    content: '';
+    width: 0;
+    height: 2.5px;
+    background: #FF725E;
+    position: absolute;
+    left: 0;
+    bottom: -4.2px;
+    transition: 0.5s;
+}
+
+.underline:hover::after {
+    width: 100%;
+}
+.button{
+    padding: 4.5px 10px;
+    background-color: #03C988;
+    border-radius: 4px;
+}
+/*Header*/
+/*main*/
+main{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 90vh;
+    background-color: #191609;
+    margin: 12% 4.5%;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+form p{
+    color: #fff;
+}
+form p a{
+    text-decoration: underline;
+    color: #fff;
+
+}
+form input{
+    z-index: -1;
+    margin: 15px 0;
+    background-color: #2F2F2F;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 2.7vh 2.5vh;
+    color: white;
+    width: 81vh;
+    font-size: 15px;
+    transition: border 0.2s ease-out;
+}
+form input:focus{
+    border: 2px solid white;
+}
+form input[type=submit]{
+    align-items: center;
+    text-align: center;
+    color: #191609;
+    background-color: #03C988;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 20vh;
+    cursor: pointer;
+}
+::placeholder{
+    color: #fff;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Invert the colors to make it white */
+}
+/*footer*/
+footer{
+    
+    background-color:#998236;
+    padding: 0 4.5%;
+}
+.container{
+    align-items: center;
+    height: 32px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.container .left-section a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+.container ul{
+    list-style: none;
+}
+.container ul li{
+    font-size: 14px;
+    color: #191609;
+}
+.container ul li a{
+    font-size: 14px;
+    color: #ffff;
+    text-decoration: none;
+}
+.left-section li a i{
+    color: #fff;
+}
+.container .right-section{
+    display: flex;
+}
+.right-section li{
+    margin: 0 14px;
+}
+/*responsive*/
+@media only screen and (max-width: 600px){
+    form{
+        width: 10vh;
+    }
+}

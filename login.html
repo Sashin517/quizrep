@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+        <title>Quiz Galaxy™ Log In</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login_style.css">
+        <link rel="icon" type="image/x-icon" href="img/circle-solid.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3e6ef2b5ef.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left-menu">
+                    <ul class="left-part">
+                        <li><a href="https://www.youtube.com/@DeemonStar/featured" target="_blank"><i class="fa-solid fa-circle" style="color: #191909;"></i> QUIZ GALAXY</a></li>
+                    </ul>
+                </div>
+    
+                </ul>
+                
+                <div>
+                    <ul class="right-part">
+                        <li><a class="underline" href="https://sashin517.github.io/quizgalaxy/" target="_blank">Home</a></li>
+                        <li><a class="button" href="https://sashin517.github.io/DBLibrarymine/" target="_blank">Sign up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="login">
+                <div class="card one">
+                    <div class="inside">
+                        <h4>Log in</h4>
+                        <p>To keep connected with us,</br>Please login with your Info.</p>
+                        <h4>or</h4>
+                        <a class="dbutton" href="https://sashin517.github.io/DBLibrarymine/" target="_blank">Sign up</a>
+                    </div>                    
+                </div>
+                <div class="card two">
+                    <form action="connection2.php" class="inside" method="post">
+                        <img src="img/Outer space-pana.svg" alt="Outer space-pana"/>
+                        <ul>
+                            <li><input type="text" name="uname" placeholder="Username" id="uname"/></li>
+                            <li><input type="password" name="password" placeholder="Password" id="password"/></li>
+                        </ul>
+                        <input type="checkbox" id="tik" name="tik"  onclick="myFunction()"/>
+                        <label for="tik"> Show Password</label><br>
+                        <input type="submit" value="Log in"/>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="left-section">
+                    <a href="https://sashin517.github.io/quizgalaxy/" target="_blank">QUIZ GALAXY</a>
+                </div>
+                <ul class="right-section">
+                    <li><a href="#home">Call us</a></li>
+                    <li><a href="https://sashin517.github.io/DBLibrarymine/" target="_blank">WhatsApp us</a></li>
+                    <li><a href="#home">Email us</a></li>
+                </ul>
+            </div> 
+        </footer>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myInput");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+        </script>
+    </body>
+</html>

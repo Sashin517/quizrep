@@ -1,0 +1,273 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz Galaxy™</title>
+        <link rel="stylesheet" href="home_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3e6ef2b5ef.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="img/circle-solid.svg">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="left-part">
+                    <li><a href="https://www.youtube.com/@DeemonStar/featured" target="_blank"><i class="fa-solid fa-circle" style="color: #191909;"></i> QUIZ GALAXY</a></li>
+                    <li><a class="bold" href="#feed"><i class="fa-solid fa-book" style="color: #191909;"></i> Feed</a></li>
+                    <li><a class="list" href="#categories">Categories</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href=""> Mathematics</a></li>
+                                <li><a href=""> Science</a></li>
+                                <li><a href=""> Drama</a></li>
+                                <li><a href=""> Art & Craft</a></li>
+                                <li><a href=""> Knowledge</a></li>
+                                <li><a href=""> Language</a></li>
+                                <li><a href=""> Other</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="right-part">
+                    <li><a class="underline" href="#play">Play</a></li>
+                    <li><a class="underline" href="#home">Home</a></li>
+                    <li><a class="bold none-underline" href="https://sashin517.github.io/DBLibrarymine/"
+                            target="_blank">Sign up</a></li>
+                    <li><a class="underline" href="https://sashin517.github.io/DBLibrarymine/" target="_blank">Log in <i
+                                class="fa-solid fa-right-to-bracket" style="color: #191609;"></i></a></li>
+                </ul>                
+            </nav>
+        </header>
+
+        <!--main-->
+        <div id="first-section">
+            <div class="left-sector">
+                <h1>Test Your<br/>Knowledge Today!!!</h1>
+                <div class="block">
+                    <a href="#" class="how">Let's Play</a>
+                    <a href="#" class="btn btn2">Create <i class="fa-solid fa-circle-plus" style="color: #191609;"></i></a>
+                    <div class="cards">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTYsA7r5hNiuwLULBoBNZAWn0SfAvwUZqHCg&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Sahan's<br/> OS QUIZ</h5>
+                                            <p class="card-text">Explore OS intricacies with Sahan's quiz, covering fundamental concepts to advanced functionalities.</p>
+                                            <div class="btn-container">
+                                                <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>                                                
+                                            </div>                                            
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="data:image/jpeg;base64,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" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Pramodi's<br/> CLOUD QUIZ</h5>
+                                            <p class="card-text">Dive into cloud computing with Pramodi's quiz, testing knowledge on services, architectures. </p>
+                                            <div class="btn-container">
+                                                <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>                                                
+                                            </div>
+                                    </div>
+                                </div>                                
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuViN7efAwB5dbdgcONdw73Omzm1fDYqFK9g&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">John's<br/>HISTORY TRIVIA</h5>
+                                            <p class="card-text">Discover history's fascinating tales in this trivia challenge.</p>
+                                            <div class="btn-container">
+                                                <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>                                                
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlfYAIT-nlIWL5KaDn4ngk1avOoSbitiwow&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Emily's<br/> SCIENCE QUIZ</h5>
+                                            <p class="card-text">Explore science with Emily's quiz, covering diverse topics.</p>
+                                            <div class="btn-container">
+                                                <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>                                                
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT83n6IEmS5KZChmQjRhPWDMKEfFdzkHKKW2g&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Alex's<br/> TECH CHALLENGE</h5>
+                                            <p class="card-text">Tech enthusiasts, test your knowledge with Alex's challenge.</p>
+                                            <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzI3g3JcRmIkhfG-M5W2HlrTE1JTMhWvPjNiLi6cxjuelsRoNhqVw5woQCMbEuY3ZWZ1s&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Luna's<br/> SPACE QUIZ</h5>
+                                            <p class="card-text">Journey through space in Luna's quiz on celestial wonders.</p>
+                                            <div class="btn-container">
+                                                <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>                                                
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyU8dZDdXRaQFSGXwMfjuiOEvGB2fWliSlSDbT4cTT6P9e_74j8ARx18S_4hZxyl346Y&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Ryan's <br/> CODING QUEST</h5>
+                                            <p class="card-text">Sharpen coding skills in Ryan's quest for programming mastery.</p>
+                                            <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ_0ZHrBnHv7e0g47vreiJjLDS11eXcJo70A&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Mia's<br/> LITERARY JOURNEY</h5>
+                                            <p class="card-text">Embark on a literary adventure with Mia's intriguing quiz.</p>
+                                            <div class="btn-container">
+                                                <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>                                                
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTORonbZ6kGyD1JNCyJjytZ1cfdebTHSe6duQ&usqp=CAU" alt="planet" />
+                                    <div class="swiper-text">
+                                        <h4 class="card-title">Max's<br/> SPORTS TRIVIA</h5>
+                                            <p class="card-text">Test your sports knowledge in Max's exciting trivia challenge.</p>
+                                            <div class="btn-container">
+                                                <a href="#" class="btnn btn-primary">Click to play <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>                                                
+                                            </div>
+                                    </div>
+                                </div>
+                            </div> 
+                                <div class="swiper-pagination"></div>
+                        </div>                
+                    </div>
+                </div>            
+            </div>
+            <div class="welcome-img">
+                <img src="img/Earth and Moon-pana.svg" alt="Earth and Moon-pana"/>
+            </div>                       
+        </div>
+        <!--Catogories-->
+        <div class="con-background">
+            <img src="img/Cat astronaut-cuate.svg" alt=""> 
+            <div class="blockk">
+                <h1>Choose<br/>Your Interest to get<br/><span class="started-text">Started!!!</span></h1>
+                <div id="cards-2">
+                    <a href ="#" class="container-2 cn1">
+                        <h4><i class="fa-solid fa-square-root-variable"></i></h4>
+                        <p>Mathematics</p>
+                    </a>
+                    <a href ="#" class="container-2 cn2">
+                        <h4><i class="fa-solid fa-flask" ></i></h4>
+                        <p>Science</p>
+                    </a>
+                    <a href ="#" class="container-2 cn3">
+                        <h4><i class="fa-solid fa-masks-theater" ></i></h4>
+                        <p>Drama</p>
+                    </a>
+                    <!--<a href ="#" class="container-2 cn4">
+                        <h4>Hide</h4>
+                        <p>hidden</p>
+                    </a>-->
+                    <a href ="#" class="container-2 cn5">
+                        <h4><i class="fa-solid fa-palette" ></i></h4>
+                        <p>Art & Craft</p>
+                    </a>
+                    <a href ="#" class="container-2 cn6">
+                        <h4><i class="fa-solid fa-book-open-reader" ></i></h4>
+                        <p>Knowledge</p>
+                    </a>
+                    <a href ="#" class="container-2 cn7">
+                        <h4><i class="fa-solid fa-earth-asia" ></i></h4>
+                        <p>Language</p>
+                    </a>
+                    <a href ="#" class="container-2 cn4">
+                        <h4><i class="fa-solid fa-earth-asia" ></i>Hide</h4>
+                        <p>hidden</p>
+                    </a>
+                    <a href ="#" class="container-2 cn8">
+                        <h4><i class="fa-solid fa-circle-arrow-right"></i></h4>
+                        <p>Other</p>
+                    </a>
+                </div>
+            </div>                       
+        </div>
+        <!--Last Section-->
+         <!--<div class="blob-container">
+            <div class="blob blob1"></div>
+        </div>-->
+        <div class="last-section">
+            <div class="gradient-container">
+                <h1>Quiz Galaxy: Elevate<br/>Learning Through<br/>Play!!!</h1>
+                <p>Unleash the power of interactive learning with <bold>Quiz Galaxy</bold>, your go-to destination for engaging online quizzes that make education fun and captivating. Much like Kahoot, we're dedicated to turning every lesson into a lively game, creating an immersive and entertaining experience for learners of all ages.</p>
+            </div>
+            <img src="img/Astronaut suit-pana.svg" alt="Astronaut suit-pana">
+        </div>        
+        <!--COPYRIGHT-->
+                  
+        <footer>
+            <div class="content">
+                <a href="https://www.youtube.com/@DeemonStar/featured" target="_blank"><i class="fa-solid fa-circle" style="color: #fff;"></i> QUIZ GALAXY</a>
+                <p>© 2023 - 2024 ALPHA Group. Made with <i class="fa-regular fa-heart"></i> by ABC LK™</p>
+                <div class="footer-list">
+                    <div class="list-one">
+                        <h3>SHARING</h3>
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/sashin.deemantha/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/sashin_deemantha__/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="list-one down">
+                        <h3>PAGE</h3>
+                        <ul>
+                            <li>Blog</li>
+                            <li>Categories</li>
+                            <li>Resources</li>
+                        </ul>
+                    </div>
+                    <div class="list-one down">
+                        <h3>NETWORK</h3>
+                        <ul>
+                            <li>How many plants</li>
+                            <li>Designstripe</li>
+                        </ul>
+                    </div>
+                    <div class="list-one down">
+                        <h3>LINKS</h3>
+                        <ul>
+                            <li>Credits</li>
+                            <li>Library</li>
+                            <li>Sitemap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-image">
+                <img src="img/space-svgrepo-com.svg" width="200" alt="Footer Image">
+            </div>
+        </footer>
+        <!--END OF COPYRIGHT-->
+         <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 1000,
+                },
+            });
+        </script>
+    </body> 
+</html>
